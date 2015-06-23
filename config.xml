@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "http://wifienter.com"
+    version   = "2.0.0">
+
+<name>Smart Geo</name>
+
+<content src="index.html"/>
+
+<description>
+Powerfull Guest Tools for hospitality services.
+</description>
+
+<author href="http://wifienter.com" email="alejandro.c@wifienter.net">
+Wifientertainment SAS - By Alejandro Osorio 2015
+</author>
+<icon src="icon.png" gap:platform="android" gap:density="ldpi" />
+
+<gap:splash src="splash.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash.png" gap:platform="android" gap:density="hdpi" />
+
+<gap:splash src="splash.png" gap:platform="ios" gap:density="ldpi" />
+<gap:splash src="splash.png" gap:platform="ios" gap:density="mdpi" />
+<gap:splash src="splash.png" gap:platform="ios" gap:density="hdpi" />
+<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+
+<access origin="190.145.24.146" browserOnly="true" />
+<access origin="http://190.145.24.146" browserOnly="true" />
+<access origin="http://wifienter.net" browserOnly="true" />
+<access origin="*" browserOnly="true" />
+
+<preference name="Orientation" value="landscape" />
+
+<preference name="KeyboardShrinksView" value="true" /> 
+<preference name="fullscreen" value="false" /> 
+
+
+</widget>
